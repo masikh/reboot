@@ -8,12 +8,10 @@ Extremely fast reboot sequence for a Linux machine. The linux kernel will sync y
     
     int main (int argc, char **argv)
     {
-	    if (reboot (RB_AUTOBOOT) < 0) {
-		    fprintf (stderr, "%s: call to reboot() system call failed.\n",
-			     argv[0]);
-    	}
-
-	    return 0;
+        if (reboot (RB_AUTOBOOT) < 0) {
+	        fprintf (stderr, "%s: call to reboot() system call failed.\n", argv[0]);
+        }
+        return 0;
     }
 
 ## compile reboot.c into reboot:
