@@ -1,4 +1,4 @@
-# Reboot what is it all about?
+# Reboot, what is it all about?
 
 This program was originaly made because an automated install refused to reboot upon completion. It will extremely fast reboot a Linux machine. The linux kernel will sync your disks and call reboot. No Ubuntu/RedHat/SuSe, etc... scripts running, just a flush to disk and reboot call. Because of the disk flush, it's relatively save.
 
