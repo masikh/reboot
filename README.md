@@ -21,4 +21,6 @@ This program was originaly made because an automated install refused to reboot u
 
 ## Execute reboot (it will sync disks, that’s it!)
 
+    ./reboot
+
 have a nice reboot!
