@@ -1,5 +1,5 @@
 # reboot
-Extremely fast reboot sequence for a Linux machine
+Extremely fast reboot sequence for a Linux machine. The linux kernel will sync your disks and call reboot. No ubunto/redhat/suse etc... scripts running, just a flush to disk and reboot call.
 
 ## create reboot.c with contents:
 
