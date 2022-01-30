@@ -19,7 +19,7 @@ This program was originaly made because an automated install refused to reboot u
 
     gcc reboot.c -o reboot
 
-## Execute reboot (it will sync disks, that’s it!)
+## Execute reboot (it will sync disks and call the kernel its reboot function, that’s it!)
 
     ./reboot
 
