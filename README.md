@@ -1,7 +1,8 @@
-# reboot
-Extremely fast reboot sequence for a Linux machine. The linux kernel will sync your disks and call reboot. No Ubuntu/RedHat/SuSe, etc... scripts running, just a flush to disk and reboot call.
+# Reboot what it's it all about?
 
-## create reboot.c with contents:
+This program was originaly made because an automated install refused to reboot upon completion. It will extremely fast reboot a Linux machine. The linux kernel will sync your disks and call reboot. No Ubuntu/RedHat/SuSe, etc... scripts running, just a flush to disk and reboot call. Because of the disk flush, it's relatively save.
+
+## Create reboot.c with contents:
 
     #include <stdio.h>
     #include <sys/reboot.h>
@@ -14,7 +15,7 @@ Extremely fast reboot sequence for a Linux machine. The linux kernel will sync y
         return 0;
     }
 
-## compile reboot.c into reboot:
+## Compile reboot.c into reboot:
 
     gcc reboot.c -o reboot
 
